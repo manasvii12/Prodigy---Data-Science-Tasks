@@ -1,37 +1,62 @@
-# 📂 Prodigy Data Science Internship Tasks  
+# Task-02: Data Cleaning & Exploratory Data Analysis (Titanic Dataset)
 
-This repository contains my completed tasks from the **Prodigy InfoTech Data Science Internship**, showcasing skills in **data cleaning, visualization, exploratory data analysis (EDA), and machine learning**.  
-
----
-
-## 📊 Task‑01: Population Data Visualization  
-- **Goal:** Visualize global population trends using World Bank data.  
-- **Tools:** Python, Pandas, Matplotlib, Seaborn  
-- **Outputs:** Histograms, bar charts, top‑10 countries, summary CSV  
-- **Insight:** Population distribution is uneven; a few countries hold most of the world’s population.  
+## 📌 Overview
+This task focuses on cleaning the Titanic dataset and performing Exploratory Data Analysis (EDA) to uncover survival patterns.  
+The analysis was done using **Python (pandas, seaborn, matplotlib)** to preprocess data, handle missing values, and generate visual insights.
 
 ---
 
-## 🧹 Task‑02: Data Cleaning & EDA  
-- **Goal:** Clean raw datasets and perform exploratory analysis.  
-- **Tools:** Python, Pandas, NumPy, Seaborn  
-- **Outputs:** Cleaned dataset, histograms, boxplots, correlation heatmap  
-- **Insight:** Identified missing values, outliers, and correlations to prepare data for modeling.  
+## 🛠️ Steps Performed
+1. **Data Cleaning**
+   - Filled missing values in `Age` and `Fare` with median values.
+   - Filled missing values in `Embarked` with the mode.
+   - Dropped the `Cabin` column due to excessive missing data.
+
+2. **Exploratory Data Analysis (EDA)**
+   - Survival count distribution.
+   - Survival by gender.
+   - Survival by passenger class.
+   - Age distribution of passengers.
+   - Survival by age groups.
+   - Survival by embarkation port.
+   - Correlation heatmap of numerical features.
 
 ---
 
-## 🌳 Task‑03: Decision Tree Classifier  
-- **Goal:** Build and evaluate a decision tree model for classification.  
-- **Tools:** Python, Scikit‑learn  
-- **Outputs:** Model training notebook, accuracy metrics, visualization of decision tree  
-- **Insight:** Demonstrated supervised learning workflow and feature importance analysis.  
+## 📊 Visualizations
+Saved plots (PNG files) are included in this folder:
+- `task2_survival_count.png`
+- `task2_survival_by_gender.png`
+- `task2_survival_by_class.png`
+- `task2_age_distribution.png`
+- `task2_survival_by_age.png`
+- `task2_survival_by_embarked.png`
+- `task2_correlation_heatmap.png`
 
 ---
 
-## 🚀 Skills Demonstrated  
-- Data Cleaning & Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Data Visualization (Matplotlib, Seaborn)  
-- Machine Learning (Scikit‑learn)  
-- GitHub Project Organization  
+## 🔑 Key Insights
+- Women had a significantly higher survival rate compared to men.
+- 1st class passengers had better survival chances than 3rd class passengers.
+- Children had higher survival rates compared to adults.
+- Passengers embarking from port **C** showed slightly better survival chances.
+- Strong correlation observed between `Pclass` and survival.
 
+---
+
+## 📂 Files
+- `train.csv`, `test.csv`, `gender_submission.csv` → datasets
+- `task2_data_cleaning_eda.py` → Python script for cleaning + EDA
+- PNG files → saved charts for reporting
+
+---
+
+## 🚀 Tools Used
+- **Python**  
+- **pandas** for data manipulation  
+- **seaborn** & **matplotlib** for visualization  
+
+---
+
+## 📝 Author
+Manasvi — B.Tech CSE student, Data Science Intern at Prodigy InfoTech

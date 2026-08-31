@@ -1,37 +1,63 @@
-# 📂 Prodigy Data Science Internship Tasks  
+# Task-04: Sentiment Analysis on Twitter Data
 
-This repository contains my completed tasks from the **Prodigy InfoTech Data Science Internship**, showcasing skills in **data cleaning, visualization, exploratory data analysis (EDA), and machine learning**.  
-
----
-
-## 📊 Task‑01: Population Data Visualization  
-- **Goal:** Visualize global population trends using World Bank data.  
-- **Tools:** Python, Pandas, Matplotlib, Seaborn  
-- **Outputs:** Histograms, bar charts, top‑10 countries, summary CSV  
-- **Insight:** Population distribution is uneven; a few countries hold most of the world’s population.  
+## 📌 Overview
+This task focuses on analyzing and visualizing **sentiment patterns in social media data** to understand public opinion and attitudes.  
+The dataset used is the **Twitter Training Dataset**, which contains tweets labeled with sentiment categories.  
+The goal is to compute sentiment scores, classify tweets into Positive, Negative, or Neutral, and visualize the results.
 
 ---
 
-## 🧹 Task‑02: Data Cleaning & EDA  
-- **Goal:** Clean raw datasets and perform exploratory analysis.  
-- **Tools:** Python, Pandas, NumPy, Seaborn  
-- **Outputs:** Cleaned dataset, histograms, boxplots, correlation heatmap  
-- **Insight:** Identified missing values, outliers, and correlations to prepare data for modeling.  
+## 🛠️ Steps Performed
+1. **Data Preparation**
+   - Loaded `twitter_training.csv` (no headers, added custom column names).
+   - Columns: `id`, `category`, `sentiment_label`, `text`.
+   - Converted text values to strings and handled missing values.
+
+2. **Sentiment Analysis**
+   - Used **TextBlob** to compute sentiment polarity scores.
+   - Classified tweets into `Positive`, `Negative`, or `Neutral`.
+
+3. **Visualization**
+   - Distribution plot of sentiment categories.
+   - WordClouds for positive and negative tweets.
+
+4. **Results Export**
+   - Saved processed dataset with sentiment scores and computed labels.
+   - Exported plots as PNG files.
 
 ---
 
-## 🌳 Task‑03: Decision Tree Classifier  
-- **Goal:** Build and evaluate a decision tree model for classification.  
-- **Tools:** Python, Scikit‑learn  
-- **Outputs:** Model training notebook, accuracy metrics, visualization of decision tree  
-- **Insight:** Demonstrated supervised learning workflow and feature importance analysis.  
+## 📊 Outputs
+Generated files include:
+- `task4_sentiment_distribution.png` → bar chart of sentiment distribution.  
+- `task4_positive_wordcloud.png` → word cloud of positive tweets.  
+- `task4_negative_wordcloud.png` → word cloud of negative tweets.  
+- `task4_sentiment_results.csv` → dataset with sentiment scores and computed labels.  
 
 ---
 
-## 🚀 Skills Demonstrated  
-- Data Cleaning & Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Data Visualization (Matplotlib, Seaborn)  
-- Machine Learning (Scikit‑learn)  
-- GitHub Project Organization  
+## 🔑 Key Insights
+- Tweets show a mix of positive, negative, and neutral sentiments.  
+- WordClouds highlight the most frequent words used in positive vs negative tweets.  
+- Sentiment distribution helps visualize overall public opinion trends.  
 
+---
+
+## 📂 Files
+- `twitter_training.csv` → dataset.  
+- `task4_sentiment_analysis.py` → Python script for sentiment analysis.  
+- Results (`.csv`) and visualizations (`.png`).  
+
+---
+
+## 🚀 Tools Used
+- **Python**  
+- **pandas** for data handling  
+- **TextBlob** for sentiment scoring  
+- **matplotlib** & **seaborn** for visualization  
+- **wordcloud** for text visualization  
+
+---
+
+## 📝 Author
+Manasvi — B.Tech CSE student, Data Science Intern at Prodigy InfoTech

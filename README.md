@@ -1,37 +1,32 @@
-# 📂 Prodigy Data Science Internship Tasks  
+# 📊 Task‑01: Population Data Visualization  
 
-This repository contains my completed tasks from the **Prodigy InfoTech Data Science Internship**, showcasing skills in **data cleaning, visualization, exploratory data analysis (EDA), and machine learning**.  
+## Objective  
+Analyze and visualize global population data to identify trends, distributions, and key insights.  
+
+## Dataset  
+World Bank population dataset (CSV format).  
+
+## Tools & Libraries  
+- Python  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+
+## Process  
+1. Imported and cleaned raw population data.  
+2. Removed aggregate rows (like “World”) to focus on country‑level analysis.  
+3. Generated histograms, bar charts, and top‑10 rankings.  
+4. Exported results as `.png` charts and `.csv` summaries.  
+
+## Outputs  
+- `hist_population_2024.png` → Histogram of population distribution  
+- `population_by_incomegrp_2024.png` → Bar chart by income group  
+- `top10_countries_2024.png` → Top‑10 most populated countries  
+- `summary.csv` → Key statistics summary  
+
+## Insights  
+- Population distribution is highly skewed.  
+- A small group of countries accounts for the majority of the world’s population.  
+- Clear differences emerge when grouping countries by income level.  
 
 ---
-
-## 📊 Task‑01: Population Data Visualization  
-- **Goal:** Visualize global population trends using World Bank data.  
-- **Tools:** Python, Pandas, Matplotlib, Seaborn  
-- **Outputs:** Histograms, bar charts, top‑10 countries, summary CSV  
-- **Insight:** Population distribution is uneven; a few countries hold most of the world’s population.  
-
----
-
-## 🧹 Task‑02: Data Cleaning & EDA  
-- **Goal:** Clean raw datasets and perform exploratory analysis.  
-- **Tools:** Python, Pandas, NumPy, Seaborn  
-- **Outputs:** Cleaned dataset, histograms, boxplots, correlation heatmap  
-- **Insight:** Identified missing values, outliers, and correlations to prepare data for modeling.  
-
----
-
-## 🌳 Task‑03: Decision Tree Classifier  
-- **Goal:** Build and evaluate a decision tree model for classification.  
-- **Tools:** Python, Scikit‑learn  
-- **Outputs:** Model training notebook, accuracy metrics, visualization of decision tree  
-- **Insight:** Demonstrated supervised learning workflow and feature importance analysis.  
-
----
-
-## 🚀 Skills Demonstrated  
-- Data Cleaning & Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Data Visualization (Matplotlib, Seaborn)  
-- Machine Learning (Scikit‑learn)  
-- GitHub Project Organization  
-

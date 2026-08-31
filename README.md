@@ -1,64 +1,44 @@
-# Task-05: Traffic Accident Data Analysis
+# Prodigy InfoTech – Data Science Internship Projects
 
 ## 📌 Overview
-This task focuses on analyzing **traffic accident data** to identify patterns related to **road conditions, weather, and time of day**.  
-The dataset used is the **US Accidents Dataset (March 2023)** from Kaggle.  
-The goal is to uncover accident trends, visualize contributing factors, and highlight accident hotspots.
+This repository contains all the tasks I completed during my **Data Science Internship at Prodigy InfoTech**.  
+The projects cover **data visualization, machine learning, sentiment analysis, and geospatial analysis** — demonstrating practical applications of Python and data science techniques.
 
 ---
 
-## 🛠️ Steps Performed
-1. **Data Preparation**
-   - Loaded `US_Accidents_March23.csv`.
-   - Handled missing values and converted timestamps to datetime format.
-   - Extracted features such as `Hour` and `DayOfWeek`.
+## 🔹 Tasks Completed
 
-2. **Pattern Analysis**
-   - Accidents by weather conditions.
-   - Accidents by hour of day.
-   - Accidents by day of week.
+### **Task-01: Data Visualization**
+- Created bar charts and histograms to visualize population data.
+- Outputs: Age distribution histogram, Gender distribution bar chart.
 
-3. **Visualization**
-   - Bar charts for weather, time, and weekday patterns.
-   - Interactive hotspot map using **Folium**.
+### **Task-02: Population Data Visualization**
+- Visualized population trends using Python and matplotlib.
+- Outputs: Comparative charts showing population distribution.
 
-4. **Results Export**
-   - Saved plots as `.png` files.
-   - Exported hotspot map as `.html`.
+### **Task-03: Decision Tree Classifier**
+- Built a Decision Tree model on the Bank Marketing dataset.
+- Outputs: Accuracy reports, confusion matrices, decision tree visualization.
 
----
+### **Task-04: Sentiment Analysis**
+- Analyzed Twitter data using TextBlob for sentiment classification.
+- Outputs: Sentiment distribution chart, WordClouds for positive & negative tweets.
 
-## 📊 Outputs
-Generated files include:
-- `task5_weather_conditions.png` → Top 10 weather conditions during accidents.  
-- `task5_accidents_by_hour.png` → Distribution of accidents by hour of day.  
-- `task5_accidents_by_day.png` → Distribution of accidents by weekday.  
-- `task5_accident_hotspots.html` → Interactive map showing accident hotspots.  
+### **Task-05: Traffic Accident Data Analysis**
+- Analyzed US Accidents dataset to identify patterns by weather, time, and road conditions.
+- Outputs: Weather condition chart, Hourly accident chart, Weekday accident chart, Interactive hotspot map.
 
 ---
 
-## 🔑 Key Insights
-- Certain weather conditions (e.g., rain, fog) are linked to higher accident counts.  
-- Accidents peak during **rush hours** (morning and evening).  
-- Weekdays show more accidents compared to weekends.  
-- Hotspot maps reveal clusters in urban and high‑traffic regions.  
-
----
-
-## 📂 Files
-- `US_Accidents_March23.csv` → dataset.  
-- `task5_accident_analysis.py` → Python script for analysis.  
-- Results (`.png`) and hotspot map (`.html`).  
-
----
-
-## 🚀 Tools Used
-- **Python**  
-- **pandas** for data handling  
-- **matplotlib** & **seaborn** for visualization  
-- **folium** for interactive maps  
+## 🚀 Tools & Libraries Used
+- **Python**
+- **pandas**, **numpy** for data handling
+- **matplotlib**, **seaborn** for visualization
+- **TextBlob** for sentiment analysis
+- **folium** for geospatial mapping
 
 ---
 
 ## 📝 Author
-Manasvi — B.Tech CSE student, Data Science Intern at Prodigy InfoTech
+**Manasvi**  
+B.Tech CSE Student | Data Science Intern at Prodigy InfoTech
